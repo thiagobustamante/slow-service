@@ -1,0 +1,5 @@
+{
+    "timeWindow": "one minute",
+    "maxRequests": 10,
+    "slowTime": "20 seconds"
+}

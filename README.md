@@ -20,7 +20,8 @@ Edit configuration properties (properties.json):
     "maxRequests": 10,
     "slowTime": "20 seconds",
     "listenPort": 3000
-}```
+}
+```
 
 And start it running
 

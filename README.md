@@ -6,10 +6,16 @@ It was created to be used in training lessons about Circuit Breakers and Rate Li
 
 ## Usage
 
-Install it:
+Clone it:
 
 ```sh
-npm install git+https://git@github.com/thiagobustamante/slow-service.git
+git clone https://github.com/thiagobustamante/slow-service.git
+```
+
+Install dependencies:
+
+```sh
+npm install
 ```
 
 Edit configuration properties (properties.json):
@@ -23,7 +29,7 @@ Edit configuration properties (properties.json):
 }
 ```
 
-And start it running
+And start it running:
 
 ```sh
 npm start

@@ -28,7 +28,6 @@ app.get('/users/:userId', (req, res, next) => {
         name: `Mr. User number ${req.params.userId}`
     });
 });
-const port = 3000;
-app.listen(port, () => {
-    console.info(`Server listening port ${port}`)
+app.listen(props.listenPort, () => {
+    console.info(`Server listening port ${props.listenPort}`)
 });
